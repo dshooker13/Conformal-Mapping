@@ -1,6 +1,6 @@
 # Conformal Mapping Tool
 
-An interactive Mathematica notebook for learning how **conformal maps solve two-dimensional electrostatics problems**.
+An interactive Mathematica notebook for learning how **conformal maps solve two-dimensional electrostatics problems**. While developed with electrostatics in mind, these same techniques can transfer over to cartography and map projections, fluid mechanics and aerodynamics, heat transfer and potential flows, general relativity, quantum field theory, and conformal field theories.
 
 You describe a set of conductors (curves held at fixed potentials) and then build a chain of conformal maps one step at a time. The tool carries the whole region between the conductors through every map, animating each step, so you can *see* what a Möbius transformation, a logarithm or a Joukowski map actually does to a region. When every conductor has been mapped onto a straight line `Re w = V`, the boundary-value problem is solved. The tool then shows the potential `V(x, y)`, draws the equipotentials and field lines, and carries them back through every plane.
 
